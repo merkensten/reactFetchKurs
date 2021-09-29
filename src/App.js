@@ -1,11 +1,11 @@
-import { MyFirstComponent } from './components/myfirstcomponent/MyFirstComponent';
 import { Routing } from './routes/Routing'
+import { NavigationBar } from './components/navigationbar/NavigationBar';
+import './shared/global/Global.css'
 
 function App() {
   return (
     <Routing>
-      <h1>React Tutorial</h1>
-      <MyFirstComponent name="Mattis Erkensten" age="24"/>
+      <NavigationBar />
     </Routing>
   );
 }
