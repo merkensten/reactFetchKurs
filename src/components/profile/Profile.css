@@ -1,0 +1,25 @@
+.auth-user {
+    margin-left: 10px;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 55px;
+    right: 10px;
+    background-color: #fff;
+    width: 200px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.profile-wrapper:hover .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.dropdown-menu a + a {
+    margin-top: 20px;
+}

@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
 
 export const HomeView = () => {
-    return (
-        <div>
-            <h1>Detta är HomeView Npm</h1>
-        </div>
-    )
-}
+
+    
+
+  return (
+    <div>
+      <h1>HomeView</h1>
+    </div>
+  );
+};
