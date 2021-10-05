@@ -1,12 +1,15 @@
-import { Routing } from './routes/Routing'
+import { Routing } from './routes/Routing';
 import { NavigationBar } from './components/navigationbar/NavigationBar';
-import './shared/global/Global.css'
+import './shared/global/css/Global.css';
+import { UserProvider } from './shared/global/provider/UserProvider';
 
 function App() {
   return (
-    <Routing>
-      <NavigationBar />
-    </Routing>
+    <UserProvider>
+      <Routing>
+        <NavigationBar />
+      </Routing>
+    </UserProvider>
   );
 }
 
